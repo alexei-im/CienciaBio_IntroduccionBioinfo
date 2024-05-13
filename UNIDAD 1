@@ -1,0 +1,40 @@
+BUEN DIA.
+
+Aqui van a encontrar todos los comandos que vamos a utilizar durante el curso
+
+***CONDA***
+
+Necesitamos decirle a CONDA en que canales necesita buscar nuestros programas 
+Para ello corremos estos comandos:
+
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+
+Ahora vamos con una clase expres de conda
+
+Crear un ambiente
+
+conda create --name MYENV
+presionr y
+
+Ahora entrar a este ambiente
+
+conda activate MYENV
+
+
+Una vez dentro del ambiente podemos instalar todos los programas que necesitamos
+
+Solo para practicar vamos a instalar samtools
+
+
+conda install samtools
+se va a instalar todo y solo tenemos que poner que 
+
+vamos a esperar que se instale todo y como ven no solo instala samtools instala
+todos los paquetes que necesitamos para que samtools funcione correctamente
+
+Para salirnos de este ambiente vamos al comando 
+
+conda deactivate
