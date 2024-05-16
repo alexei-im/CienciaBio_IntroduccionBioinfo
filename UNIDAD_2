@@ -23,6 +23,10 @@ Regresar un directorio
 
 cd ..
 
+Crear archivos vacios
+
+touch Archivo1.txt
+
 Enlistar el contenido de un directorio
 
 ls
@@ -43,9 +47,17 @@ Moviendo archivos
 
 mv  archivo  direccion
 
+Renombrar archivos
+
+mv archivo nuevoNombre
+
 Copiando archivos
 
 cp  archivo  direccion
+
+Copiar con nuevo nombre
+
+cp Archivo  NuevoNombre
 
 Borrar
 
@@ -65,6 +77,23 @@ wget link_de_lo_que_quieres_descargar
 
 Practica 1
 
+1. Descargar los datos del siguiente link
+
+https://892a30b0-82e8-4dde-9018-5c35800cfd0e.filesusr.com/archives/dfa257_31432900e2fc4493a376bc83c75e0229.gz?dn=codigo.tar.gz 
+
+Esto nos va a descargar un archivo comprimido en formato .tar
+
+2. Descomprimir el archivo con el comando
+tar
+
+3. Crear una nueva carpeta llamada Secuencias
+4. Ingresar a la carpeta codigo
+5. Renombrar los archivos 
+'efetch.fcgi?db=nucleotide&id=NM_001176633&rettype=fasta' a 31.fasta
+'efetch.fcgi?db=nucleotide&id=NM_001176634&rettype=fasta' a 32.fasta
+
+6. Copiar  todos los archivos que terminen en fasta a la carpeta Secuencias
+7. Borrar la carpeta 
 
 
 
