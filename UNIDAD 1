@@ -17,7 +17,9 @@ Ahora vamos con una clase expres de conda
 Crear un ambiente
 
 conda create --name MYENV
-presionr y
+presionar y
+
+Para ver los ambientes que tenemos disponibles 
 
 Ahora entrar a este ambiente
 
@@ -26,10 +28,10 @@ conda activate MYENV
 
 Una vez dentro del ambiente podemos instalar todos los programas que necesitamos
 
-Solo para practicar vamos a instalar samtools
+Solo para practicar vamos a instalar blast
 
 
-conda install samtools
+conda install blast
 se va a instalar todo y solo tenemos que poner que 
 
 vamos a esperar que se instale todo y como ven no solo instala samtools instala
@@ -38,3 +40,8 @@ todos los paquetes que necesitamos para que samtools funcione correctamente
 Para salirnos de este ambiente vamos al comando 
 
 conda deactivate
+
+
+Para borrar un ambiente  utilizaremos el codigo 
+
+conda remove --name ENV_NAME --all
