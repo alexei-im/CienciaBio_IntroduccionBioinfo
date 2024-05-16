@@ -1,0 +1,70 @@
+Empecemos con BASH
+
+Primer comando 
+"HOLA MUNDO"
+
+echo "HOLA MUNDO"
+
+Creando nuevas carpetas
+
+mkdir Dir1
+
+En que directorio estoy
+
+pwd
+
+Cambiar directorios
+
+cd Dir1
+o
+cd /home/laptop/Dir1
+
+Regresar un directorio
+
+cd ..
+
+Enlistar el contenido de un directorio
+
+ls
+
+Cambiando permisos
+
+chmod opciones archivo
+
++x  agregar permiso de ejecucion
++w  agregar permiso de escritura
++r  agregar permiso de lectura
+
+Manual para los comandos
+
+man comandos
+
+Moviendo archivos
+
+mv  archivo  direccion
+
+Copiando archivos
+
+cp  archivo  direccion
+
+Borrar
+
+rm  Archivo
+
+Borrar directorios
+rmdir Directorio
+o rm -r  Directorio
+
+Descomprimir archivos con TAR
+
+tar -xvf Archivo.tar
+
+Descargar documentos utilizando un link
+
+wget link_de_lo_que_quieres_descargar
+
+Practica 1
+
+
+
+
